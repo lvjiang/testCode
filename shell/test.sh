@@ -5,3 +5,9 @@ echo "wuwu..."
 fi
 echo "haha..."
 
+
+if [ ! -e test ]; then
+	echo "exist."
+else
+	echo "no exist."
+fi
